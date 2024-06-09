@@ -11,7 +11,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
         audio: audioName
     });
 
-    fetch('http://localhost:2323/db.php', {
+    fetch('/db.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
